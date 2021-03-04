@@ -10,6 +10,8 @@ Stap 5: run: `npm run dev`
 
 Stap 6: run: `php artisan serve`
 
-Stap 7: ???
+Stap 7: run: `cp .env.example .env`
 
-Stap 8: PROFIT!
+Stap 8: ???
+
+Stap 9: PROFIT!
