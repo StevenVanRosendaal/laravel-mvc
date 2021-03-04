@@ -12,6 +12,8 @@ Stap 6: run: `php artisan serve`
 
 Stap 7: run: `cp .env.example .env`
 
+Stap 8: run: `php artisan key:generate`
+
 Stap 8: ???
 
 Stap 9: PROFIT!
