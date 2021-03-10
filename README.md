@@ -38,10 +38,10 @@ Stap 5: run: `npm run dev`
 
 Stap 6: run: `copy .env.example .env`
 
-Stap 7: run: `php artisan serve`
+Stap 7: run: `php artisan key:generate`
 
-Stap 8: run: `php artisan key:generate`
+Stap 8: run: `php artisan serve`
 
-Stap 8: ???
+Stap 9: ???
 
-Stap 9: PROFIT!
+Stap 10: PROFIT!
