@@ -36,9 +36,9 @@ Stap 4: run: `npm install`
 
 Stap 5: run: `npm run dev`
 
-Stap 6: run: `php artisan serve`
+Stap 6: run: `copy .env.example .env`
 
-Stap 7: run: `cp .env.example .env`
+Stap 7: run: `php artisan serve`
 
 Stap 8: run: `php artisan key:generate`
 
