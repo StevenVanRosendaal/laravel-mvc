@@ -16,13 +16,22 @@ class PagesController extends Controller
         ]);
     }
 
-    public function add() {
-        $newPage = Pages::create([
-            'content' => 'This is a new page',
-            'user_id' => 1,
-            'title' => 'New page'
-        ]);
+    public function addPage() {
+
+        return view('page.add');
         
+    }
+
+    public function processAddPage(Request $request) {
+
+        $newPage = Pages::create([
+            // Optie 1
+            'title' => $request->title,
+            // Optie 2
+            'content' => $request->input('content'),
+            'user_id' => 1,
+        ]);
+
         return redirect()->route('home');
     }
 }

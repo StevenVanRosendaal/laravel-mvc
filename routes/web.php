@@ -16,4 +16,6 @@ use App\Http\Controllers\PagesController;
 
 Route::get('/', [PagesController::class, 'view'])->name('home');
 
-Route::get('/add', [PagesController::class, 'add'])->name('addPage');
+Route::get('/add', [PagesController::class, 'addPage'])->name('addPage');
+
+Route::post('/add', [PagesController::class, 'processAddPage'])->name('processAddPage');
