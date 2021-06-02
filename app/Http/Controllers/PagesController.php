@@ -7,6 +7,9 @@ use App\Models\Pages;
 
 class PagesController extends Controller
 {
+
+    // hoi
+
     public function view() {
         
         $pages = Pages::all();
